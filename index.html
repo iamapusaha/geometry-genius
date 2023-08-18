@@ -22,10 +22,10 @@
 </header>
 <main>
     <section class="container mx-auto mt-10">
-        <div class="grid grid-cols-4">
+        <div class="grid grid-cols-4 gap-5">
             <div class="col-span-3">
                 <div class="grid grid-cols-3 gap-5">
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10 mb-5">
                             <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10 mb-5">
                             <img src="images/rectangle.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -57,10 +57,67 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10 mb-5">
+                            <img src="images/parallelogram.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title mb-3">Parallelogram</h2>
+                            <p class="mb-3">Area (A) = W * I</p>
+                            <p class="mb-3 text-2xl">b=10cm, h=12cm</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-wide">calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10 mb-5">
+                            <img src="images/rhombus.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title mb-3">Rhombus</h2>
+                            <p class="mb-3">Area (A) = 0.5 * d1 * d2</p>
+                            <p class="mb-3 text-2xl">d1=16cm, d2=8cm</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-wide">calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10 mb-5">
+                            <img src="images/pentagon.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title mb-3">Pentagon</h2>
+                            <p class="mb-3">Area (A) = 0.5 * p * b</p>
+                            <p class="mb-3 text-2xl">p = 6cm, b = 10cm</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-wide">calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card min-w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10 mb-5">
+                            <img src="images/ellipse.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title mb-3">Ellipse</h2>
+                            <p class="mb-3">Area (A) = πab</p>
+                            <p class="mb-3 text-2xl">a = 10cm, b = 4cm</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-wide">calculate</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                part 2
+            <div class="bg-white border-2 border-inherit rounded h-fit">
+                <h2 class="text-center underline underline-offset-8 text-xl mt-5 font-bold">Area Calculation</h2>
+                <div class="pl-7 mt-3">
+                    <ol class="list-decimal text-left" id="display-data">
+
+                    </ol>
+                </div>
             </div>
         </div>
     </section>
